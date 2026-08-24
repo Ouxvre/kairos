@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Inter, JetBrains_Mono } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 // Font Display untuk Landing Page (File Lokal)
@@ -44,7 +43,6 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-[#0B0C10] text-[#F4F4F6] font-sans" suppressHydrationWarning>
         {children}
-        <Analytics />
       </body>
     </html>
   );
