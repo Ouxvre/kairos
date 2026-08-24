@@ -1,6 +1,6 @@
 <div align="center">
 
-# KAIROS (καιρός)
+# KAIROS
 
 ### *Master the Moment.*
 
