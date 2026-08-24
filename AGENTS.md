@@ -64,3 +64,4 @@ Base: Node.js ≥22, git, OpenCode (`~/.opencode/bin/opencode.exe`), then:
 - `Set-Content`/`Get-Content` without `-Encoding UTF8` corrupt non-ASCII (mangled ▶/◇ glyphs). Prefer the Write/Edit file tools for source files.
 - In double-quoted strings, `$_.png` interpolates as a property access — use `${_}.png`.
 - Chrome sometimes exits without writing `--screenshot` output; retry before diagnosing.
+- `git push` can hang **after** a successful transfer — `git credential-manager store` stalls at the end. If a push times out, check `git status -sb` first: it may already say "up to date".
