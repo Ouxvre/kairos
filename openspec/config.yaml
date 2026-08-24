@@ -1,32 +1,33 @@
 schema: spec-driven
 
-# Project context (optional)
-# This is shown to AI when creating artifacts.
-# Add your tech stack, conventions, style guides, domain knowledge, etc.
-# Example:
-#   context: |
-#     Tech stack: TypeScript, React, Node.js
-#     We use conventional commits
-#     Domain: e-commerce platform
+context: |
+  Kairos — AI crypto-trading control panel (landing page Phase 1 done; auth, dashboard,
+  market data, Freqtrade integration, and news phases are planned, not built — see docs/PRD.md).
 
-# Per-artifact rules (optional)
-# Add custom rules for specific artifacts.
-# Example:
-#   rules:
-#     proposal:
-#       - Keep proposals under 500 words
-#       - Always include a "Non-goals" section
-#     tasks:
-#       - Break tasks into chunks of max 2 hours
+  Tech stack: Next.js 16 App Router, React 19, Tailwind CSS v4, TypeScript. Deps: lenis
+  (smooth scroll), three (grain shader), @vercel/analytics. No test framework by design —
+  verification = `npm.cmd run build` + `npm.cmd run lint` + visual pass on localhost:3000.
+  On Windows/PowerShell always use `npm.cmd`, never `npm` (execution policy blocks npm.ps1).
 
-# Per-operation guidance (optional)
-# Add advisory guidance for how apply and archive work should be conducted.
-# This is separate from artifact rules above.
-# Example:
-#   operations:
-#     apply:
-#       guidance:
-#         - Keep test summaries concise
-#     archive:
-#       guidance:
-#         - Summarize the archive outcome before finishing
+  Conventions:
+  - Design system lives entirely in src/app/globals.css under `.kairos-web`: fluid unit
+    `--u = max(calc(100cqw / 2360), 0.58px)`, color tokens `--k-*` (gold #a8862a bg, white
+    accent, inverted paper panel). Size type/spacing with calc(N * var(--u)), not px.
+  - Tailwind v4: `text-[calc(...)]` silently generates no CSS — use `text-[length:calc(...)]`.
+    Custom `.ks-*` CSS is unlayered and beats utilities; bump specificity instead of !important.
+  - Animation: Lenis + rAF-updated CSS vars + IntersectionObserver in src/components/landing/ScrollFx.tsx.
+    No GSAP/Framer Motion. Above-fold reveals are synchronous; IO handles below-fold only.
+  - Hero background must be <video> (mp4), never animated webp/img (compositor flicker).
+  - Fonts are local (GFS Didot = --font-serif, JetBrains Mono = --font-mono, Inter = --font-sans).
+  - Respect prefers-reduced-motion for every animation added.
+
+  Product language: English UI copy, uppercase styling handled by CSS (write copy in
+  sentence case). Brand voice: Greek "kairos = the opportune moment", premium/restrained.
+
+rules:
+  proposal:
+    - Keep proposals under 500 words; always include a Non-goals section
+    - State which PRD phase/user stories the change belongs to
+  tasks:
+    - Each task must end verifiable: build + lint must pass after every task
+    - No new animation libraries — reuse ScrollFx/Lenis/GrainCanvas patterns
