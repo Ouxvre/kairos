@@ -22,7 +22,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Structure
 
-- `src/app/` — App Router. `layout.tsx` wires fonts + metadata + `<Analytics />` (Vercel). `globals.css` holds the whole design system, not just resets.
+- `src/app/` — App Router. `layout.tsx` wires fonts + metadata. `globals.css` holds the whole design system, not just resets.
 - `src/components/landing/` — all landing sections + animation primitives (client comps: `SmoothScroll` (Lenis), `ScrollFx`, `GrainCanvas` (three.js), `HeroVideo`).
 - Fonts are **local** in `src/app/fonts/` (GFS Didot = `--font-serif`, JetBrains Mono = `--font-mono`), exposed via `@theme inline` in globals.css. Inter = `--font-sans` (Google).
 - Hero media: `public/assets/video/kairos_hero.mp4` rendered as `<video autoplay muted loop playsinline>`. **Do not use an animated webp/img here** — a 5.8MB animated webp caused full-page compositor flicker (decode stalls); mp4 decodes off-thread and is smaller.
@@ -40,6 +40,17 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Reveals: `[data-reveal]` + `.is-inview`. Above-fold elements are revealed **synchronously at mount**; IO (rootMargin `-10%` bottom) handles below-fold only — IO alone intermittently misses elements near its boundary.
 - Parallax/curtain/footer-fade are CSS vars (`--py-img`, `--py`/`--clip-bottom`, `--ks-footer-opacity`) updated in one rAF-driven `update()` on scroll. Footer = `position: fixed` behind `<main class="mb-[100dvh]">` (Hermes-style reveal); `prefers-reduced-motion` short-circuits all of it.
 - `GrainCanvas`: fullscreen noise shader. Its hash must stay precision-safe (no `sin`-based hashes — they degenerate into flickering stripes as `uTime` grows).
+
+## New machine setup (agent tooling is per-machine, not in the repo)
+
+Base: Node.js ≥22, git, OpenCode (`~/.opencode/bin/opencode.exe`), then:
+
+1. Deps: `npm.cmd install`
+2. CodeGraph index: `codegraph.cmd init` (or just open the repo — daemon indexes on demand)
+3. Cloudflare skills (installs to `~/.agents/skills/`, read by OpenCode automatically):
+   `npx.cmd -y skills add cloudflare/skills --skill '*' --yes --global`
+4. Cloudflare MCP servers: merge the five `cloudflare*` remote entries into the `"mcp"` block of `~/.config/opencode/opencode.json` (copy from an existing machine or from https://developers.cloudflare.com/agent-setup/prompt.md — OpenCode section), then `& "$env:USERPROFILE\.opencode\bin\opencode.exe" mcp auth cloudflare` (browser OAuth) and restart OpenCode.
+5. ffmpeg (only if converting media): `winget install Gyan.FFmpeg`
 
 ## Visual verification quirks (headless Chrome on this machine)
 
