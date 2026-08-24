@@ -4,12 +4,12 @@
 
 ### *Master the Moment.*
 
-**An Institutional-Grade AI Auto-Trading Engine for Crypto & Forex Markets.**
+**An Institutional-Grade AI Auto-Trading Control Panel for Crypto Markets.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
-[![Asset Class](https://img.shields.io/badge/Assets-Crypto%20%7C%20Forex-blue.svg)]()
-[![Architecture](https://img.shields.io/badge/AI-Market%20Regime%20Detection-orange.svg)]()
+[![Asset Class](https://img.shields.io/badge/Assets-Crypto-blue.svg)]()
+[![Engine](https://img.shields.io/badge/AI-Freqtrade%20REST%20Proxy-orange.svg)]()
 
 ---
 
@@ -17,9 +17,9 @@
 
 ## Overview
 
-**KAIROS** is a high-precision algorithmic trading infrastructure engineered to eliminate emotional latency and execute high-probability strategies across multi-asset markets. 
+**KAIROS** is a high-precision algorithmic trading control panel engineered to eliminate emotional latency and execute high-probability strategies across crypto markets wrapping around Freqtrade. 
 
-Unlike traditional bots bound by lagging indicator loops, **KAIROS** leverages machine learning to continuously analyze real-time volatility, order book dynamics, and liquidity pools—capturing fleeting market opportunities before they vanish into slippage.
+Unlike traditional bots bound by lagging indicator loops, **KAIROS** leverages machine learning to continuously analyze real-time volatility, order book dynamics, and sentiment—capturing fleeting market opportunities before they vanish into slippage.
 
 ---
 
@@ -39,23 +39,3 @@ Markets move on Chronos, but profits are extracted on Kairos. Human traders fail
 * **Precision Over Frequency:** Patiently waits for exact alignment of liquidity, momentum, and regime metrics instead of overtrading.
 * **Zero Latency:** True to Kairos—traditionally depicted with winged feet—the engine executes orders the millisecond an edge materializes.
 * **Irreversible Opportunity:** Classical lore depicts Kairos with hair on his forehead but bald behind—once he passes, he cannot be caught. Our algorithms grab market edges before liquidity vanishes.
-
----
-
-## Core Features
-
-* **Multi-Asset Compatibility:** Unified execution engine supporting major Crypto exchanges (Binance, Bybit) and Forex brokers (MT4/MT5 bridges, REST APIs).
-* **AI Market Regime Detection:** Adaptive strategy switching based on real-time volatility clustering and trend identification.
-* **Low-Latency Order Routing:** Optimized WebSocket & REST pipeline designed for sub-millisecond execution.
-* **Institutional Risk Engine:** Automated drawdown limits, dynamic position sizing, and algorithmic stop-loss adjustments.
-
----
-
-## Visual & Design Identity
-
-| Attribute | Direction |
-| :--- | :--- |
-| **Typography** | Classical Roman Chisel-Cut Serif headers paired with clean Monospace data fonts. |
-| **Color Palette** | Deep Obsidian (`#0B0C10`), Marble White (`#F4F4F6`), Transcendent Gold (`#D4AF37`). |
-| **Interface Style** | Dark-mode terminal, high-contrast typography, and Greco-Roman geometric accents. |
-| **Core Tagline** | *Master the Moment.* |
