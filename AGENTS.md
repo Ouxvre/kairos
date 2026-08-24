@@ -15,7 +15,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 ## Commands
 
 - Windows + PowerShell: `npm.ps1` is blocked by execution policy — use `npm.cmd` (or plain `npm` in cmd.exe), never `npm`.
-- `npm.cmd run dev` / `build` / `start` / `lint`. No separate typecheck script — `build` runs `tsc`. Lint is bare `eslint` (flat config, `eslint.config.mjs`).
+- `npm.cmd run dev` / `build` / `lint`. No separate typecheck script — `build` runs `tsc`. Lint is bare `eslint` (flat config, `eslint.config.mjs`).
+- `next.config.ts` uses `output: "export"` (Cloudflare Pages static hosting) — `next start` is **not available**; verify prod output by serving `out/` with any static server. `dev` works normally.
 - No test framework by design (solo project, ship fast — see PRD). Verification = `build` + `lint` + visual pass.
 - `npm run start` serves the last **build** — always `npm.cmd run build` before verifying prod behavior, otherwise you debug stale output.
 
