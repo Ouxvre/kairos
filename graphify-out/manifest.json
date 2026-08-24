@@ -1,0 +1,212 @@
+{
+  ".opencode/opencode.json": {
+    "mtime": 1787572380.689035,
+    "seen": 1787577858.7439544,
+    "ast_hash": "1efe24ecf938911d4f23e4b1c6ec91f7",
+    "semantic_hash": "1efe24ecf938911d4f23e4b1c6ec91f7"
+  },
+  ".opencode/plugins/graphify.js": {
+    "mtime": 1787572296.7531848,
+    "seen": 1787577858.7439544,
+    "ast_hash": "b33d000860642c6f4907a877e0387a21",
+    "semantic_hash": "b33d000860642c6f4907a877e0387a21"
+  },
+  "eslint.config.mjs": {
+    "mtime": 1787508663.7276607,
+    "seen": 1787577858.7439544,
+    "ast_hash": "dfa1f5f6a7037bf39dc510f30b180002",
+    "semantic_hash": "dfa1f5f6a7037bf39dc510f30b180002"
+  },
+  "next.config.ts": {
+    "mtime": 1787508663.9806197,
+    "seen": 1787577858.7439544,
+    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
+    "semantic_hash": "9b77af189a21a7a64e4bd7a426f64176"
+  },
+  "opencode.json": {
+    "mtime": 1787571271.2470653,
+    "seen": 1787577858.7439544,
+    "ast_hash": "fb3d7189cc24ac5cb91da4f139f6757c",
+    "semantic_hash": "fb3d7189cc24ac5cb91da4f139f6757c"
+  },
+  "package.json": {
+    "mtime": 1787565658.2066793,
+    "seen": 1787577858.7439544,
+    "ast_hash": "6e9de788387a2a707d83d43ae80115e0",
+    "semantic_hash": "6e9de788387a2a707d83d43ae80115e0"
+  },
+  "postcss.config.mjs": {
+    "mtime": 1787508663.7996385,
+    "seen": 1787577858.7439544,
+    "ast_hash": "239f3ebf717465dc636818a1a619398d",
+    "semantic_hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "src/app/layout.tsx": {
+    "mtime": 1787571858.6839569,
+    "seen": 1787577858.7439544,
+    "ast_hash": "cf59a1f6203128d1d757d4860f8e2faa",
+    "semantic_hash": "cf59a1f6203128d1d757d4860f8e2faa"
+  },
+  "src/app/page.tsx": {
+    "mtime": 1787565658.205529,
+    "seen": 1787577858.7439544,
+    "ast_hash": "7960d56e7fc48ecd789e2fd32155fa90",
+    "semantic_hash": "7960d56e7fc48ecd789e2fd32155fa90"
+  },
+  "tsconfig.json": {
+    "mtime": 1787565658.2024517,
+    "seen": 1787577858.7439544,
+    "ast_hash": "ee17fd1c97c735e9f3564e3f5251f125",
+    "semantic_hash": "ee17fd1c97c735e9f3564e3f5251f125"
+  },
+  ".opencode/commands/opsx-apply.md": {
+    "mtime": 1787575070.4609616,
+    "seen": 1787577858.7439544,
+    "ast_hash": "bcf1f5836a6eca8a15074022807142b5",
+    "semantic_hash": "bcf1f5836a6eca8a15074022807142b5"
+  },
+  ".opencode/commands/opsx-archive.md": {
+    "mtime": 1787575070.464467,
+    "seen": 1787577858.7439544,
+    "ast_hash": "17c421daa6c8ce31d1e6a515231a7a14",
+    "semantic_hash": "17c421daa6c8ce31d1e6a515231a7a14"
+  },
+  ".opencode/commands/opsx-explore.md": {
+    "mtime": 1787575070.4609616,
+    "seen": 1787577858.7439544,
+    "ast_hash": "37ae9b1f35bdf3bd79b8910147921a8b",
+    "semantic_hash": "37ae9b1f35bdf3bd79b8910147921a8b"
+  },
+  ".opencode/commands/opsx-propose.md": {
+    "mtime": 1787575070.464467,
+    "seen": 1787577858.7439544,
+    "ast_hash": "2a94f7c1b43c34b0fa6c8bcdd29a49f6",
+    "semantic_hash": "2a94f7c1b43c34b0fa6c8bcdd29a49f6"
+  },
+  ".opencode/commands/opsx-sync.md": {
+    "mtime": 1787575070.464467,
+    "seen": 1787577858.7439544,
+    "ast_hash": "a5299ae9948dbdc48dbc73761a042974",
+    "semantic_hash": "a5299ae9948dbdc48dbc73761a042974"
+  },
+  ".opencode/commands/opsx-update.md": {
+    "mtime": 1787575070.464467,
+    "seen": 1787577858.7439544,
+    "ast_hash": "7bba385698c112f2502ad1740bf26ff1",
+    "semantic_hash": "7bba385698c112f2502ad1740bf26ff1"
+  },
+  ".opencode/skills/openspec-apply-change/SKILL.md": {
+    "mtime": 1787575070.4458075,
+    "seen": 1787577858.7439544,
+    "ast_hash": "fcb796d79391da1c895fddae250c25bd",
+    "semantic_hash": "fcb796d79391da1c895fddae250c25bd"
+  },
+  ".opencode/skills/openspec-archive-change/SKILL.md": {
+    "mtime": 1787575070.4524117,
+    "seen": 1787577858.7439544,
+    "ast_hash": "01b4b927f8295160fa58721db97506cb",
+    "semantic_hash": "01b4b927f8295160fa58721db97506cb"
+  },
+  ".opencode/skills/openspec-explore/SKILL.md": {
+    "mtime": 1787575070.4403381,
+    "seen": 1787577858.7439544,
+    "ast_hash": "7cf64862b37a3e274f812cdfca93c95d",
+    "semantic_hash": "7cf64862b37a3e274f812cdfca93c95d"
+  },
+  ".opencode/skills/openspec-propose/SKILL.md": {
+    "mtime": 1787575070.4524117,
+    "seen": 1787577858.7439544,
+    "ast_hash": "b596a66394cb7c992809ef3afc54ef1a",
+    "semantic_hash": "b596a66394cb7c992809ef3afc54ef1a"
+  },
+  ".opencode/skills/openspec-sync-specs/SKILL.md": {
+    "mtime": 1787575070.4492004,
+    "seen": 1787577858.7439544,
+    "ast_hash": "9cd36d9a5e25247b10d94a518e423752",
+    "semantic_hash": "9cd36d9a5e25247b10d94a518e423752"
+  },
+  ".opencode/skills/openspec-update-change/SKILL.md": {
+    "mtime": 1787575070.4492004,
+    "seen": 1787577858.7439544,
+    "ast_hash": "dcb19e8eff6daaf3a8eafd92dd780489",
+    "semantic_hash": "dcb19e8eff6daaf3a8eafd92dd780489"
+  },
+  "AGENTS.md": {
+    "mtime": 1787565749.612283,
+    "seen": 1787577858.7439544,
+    "ast_hash": "01e8142356e15c3404e0d84c48187cd0",
+    "semantic_hash": "01e8142356e15c3404e0d84c48187cd0"
+  },
+  "CLAUDE.md": {
+    "mtime": 1787565749.6128764,
+    "seen": 1787577858.7439544,
+    "ast_hash": "5c27369b226fcf2be8a6cfe52224e767",
+    "semantic_hash": "5c27369b226fcf2be8a6cfe52224e767"
+  },
+  "README.md": {
+    "mtime": 1787571236.5672853,
+    "seen": 1787577858.7439544,
+    "ast_hash": "92a9945e191b626a2b128ac66a592cf0",
+    "semantic_hash": "92a9945e191b626a2b128ac66a592cf0"
+  },
+  "docs/PRD.md": {
+    "mtime": 1787570786.649804,
+    "seen": 1787577858.7439544,
+    "ast_hash": "b9f2b28657706ce3bc1449bfdccf65e3",
+    "semantic_hash": "b9f2b28657706ce3bc1449bfdccf65e3"
+  },
+  "openspec/config.yaml": {
+    "mtime": 1787575070.464467,
+    "seen": 1787577858.7439544,
+    "ast_hash": "a88f7d80935e1a432dc9b5affe49eb27",
+    "semantic_hash": "a88f7d80935e1a432dc9b5affe49eb27"
+  },
+  "src/app/fonts/GFS_Didot/OFL.txt": {
+    "mtime": 1787563978.8782582,
+    "seen": 1787577858.7439544,
+    "ast_hash": "af3041d1d19fffb649541c3cb7110a3a",
+    "semantic_hash": "af3041d1d19fffb649541c3cb7110a3a"
+  },
+  "src/app/fonts/JetBrains_Mono/OFL.txt": {
+    "mtime": 1787571549.0763233,
+    "seen": 1787577858.7439544,
+    "ast_hash": "d91d325d953444833285afa3b119e0fa",
+    "semantic_hash": "d91d325d953444833285afa3b119e0fa"
+  },
+  "src/app/fonts/JetBrains_Mono/README.txt": {
+    "mtime": 1787571549.0921433,
+    "seen": 1787577858.7439544,
+    "ast_hash": "a4977b43c303e957fa91703e9540efc4",
+    "semantic_hash": "a4977b43c303e957fa91703e9540efc4"
+  },
+  "public/file.svg": {
+    "mtime": 1787508663.8135426,
+    "seen": 1787577858.7439544,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71"
+  },
+  "public/globe.svg": {
+    "mtime": 1787508663.8399036,
+    "seen": 1787577858.7439544,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": "2aaafa6a49b6563925fe440891e32717"
+  },
+  "public/next.svg": {
+    "mtime": 1787508663.871576,
+    "seen": 1787577858.7439544,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": "8e061864f388b47f33a1c3780831193e"
+  },
+  "public/vercel.svg": {
+    "mtime": 1787508663.899924,
+    "seen": 1787577858.7439544,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": "c0af2f507b369b085b35ef4bbe3bcf1e"
+  },
+  "public/window.svg": {
+    "mtime": 1787508663.9197507,
+    "seen": 1787577858.7439544,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": "a2760511c65806022ad20adf74370ff3"
+  }
+}

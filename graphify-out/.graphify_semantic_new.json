@@ -1,0 +1,1209 @@
+{
+  "nodes": [
+    {
+      "id": "_opencode_commands_opsx_apply_workflow",
+      "label": "opsx-apply Command",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-apply.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_opencode_commands_opsx_archive_workflow",
+      "label": "opsx-archive Command",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-archive.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_opencode_commands_opsx_explore_workflow",
+      "label": "opsx-explore Command",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-explore.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_opencode_commands_opsx_propose_workflow",
+      "label": "opsx-propose Command",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-propose.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_opencode_commands_opsx_sync_workflow",
+      "label": "opsx-sync Command",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-sync.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_opencode_commands_opsx_update_workflow",
+      "label": "opsx-update Command",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-update.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_opencode_skills_openspec_apply_change_skill",
+      "label": "openspec-apply-change Skill",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-apply-change\\SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "openspec",
+      "contributor": null
+    },
+    {
+      "id": "_opencode_skills_openspec_archive_change_skill",
+      "label": "openspec-archive-change Skill",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-archive-change\\SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "openspec",
+      "contributor": null
+    },
+    {
+      "id": "_opencode_skills_openspec_explore_skill",
+      "label": "openspec-explore Skill",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-explore\\SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "openspec",
+      "contributor": null
+    },
+    {
+      "id": "_opencode_skills_openspec_propose_skill",
+      "label": "openspec-propose Skill",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-propose\\SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "openspec",
+      "contributor": null
+    },
+    {
+      "id": "_opencode_skills_openspec_sync_specs_skill",
+      "label": "openspec-sync-specs Skill",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-sync-specs\\SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "openspec",
+      "contributor": null
+    },
+    {
+      "id": "_opencode_skills_openspec_update_change_skill",
+      "label": "openspec-update-change Skill",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-update-change\\SKILL.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "openspec",
+      "contributor": null
+    },
+    {
+      "id": "_opencode_commands_opsx_apply_openspec_cli",
+      "label": "OpenSpec CLI",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-apply.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openspec_config_yaml",
+      "label": "OpenSpec Project Config",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\openspec\\config.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openspec_config_spec_driven_schema",
+      "label": "spec-driven Workflow Schema",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\openspec\\config.yaml",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "_opencode_skills_openspec_propose_planning_boundary",
+      "label": "Planning Boundary Principle",
+      "file_type": "rationale",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-propose\\SKILL.md",
+      "source_location": "line 15",
+      "source_url": null,
+      "captured_at": null,
+      "author": "openspec",
+      "contributor": null,
+      "rationale": "The user request that triggers propose authorizes planning only - even if it asks to build or fix something. Implementation must wait for an explicit new request starting the apply workflow, preventing accidental code edits during artifact generation."
+    },
+    {
+      "id": "_opencode_skills_openspec_explore_explore_mode_stance",
+      "label": "Explore Mode Stance",
+      "file_type": "rationale",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-explore\\SKILL.md",
+      "source_location": "lines 13-17",
+      "source_url": null,
+      "captured_at": null,
+      "author": "openspec",
+      "contributor": null,
+      "rationale": "Explore mode is a stance, not a workflow: thinking partner behavior with no fixed steps. Never write code while exploring; creating OpenSpec artifacts counts as capturing thinking, not implementing."
+    },
+    {
+      "id": "_opencode_skills_openspec_sync_specs_intelligent_merge",
+      "label": "Intelligent Merging",
+      "file_type": "rationale",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-sync-specs\\SKILL.md",
+      "source_location": "lines 226-231",
+      "source_url": null,
+      "captured_at": null,
+      "author": "openspec",
+      "contributor": null,
+      "rationale": "Unlike programmatic merging, the agent merges rather than overwrites: preserve scenarios/content the delta does not mention, keep main spec order, and never copy delta operation headers into main specs."
+    },
+    {
+      "id": "_opencode_skills_openspec_apply_change_fluid_workflow",
+      "label": "Fluid Workflow Model",
+      "file_type": "rationale",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-apply-change\\SKILL.md",
+      "source_location": "lines 183-188",
+      "source_url": null,
+      "captured_at": null,
+      "author": "openspec",
+      "contributor": null,
+      "rationale": "Supports the 'actions on a change' model: apply can run before all artifacts are done, interleaved with other actions, and implementation revealing design issues should loop back into artifact updates rather than staying phase-locked."
+    },
+    {
+      "id": "_opencode_skills_openspec_sync_specs_capability_retirement",
+      "label": "Capability Retirement Rules",
+      "file_type": "rationale",
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-sync-specs\\SKILL.md",
+      "source_location": "lines 113-136",
+      "source_url": null,
+      "captured_at": null,
+      "author": "openspec",
+      "contributor": null,
+      "rationale": "A main spec.md may only be deleted when ALL conditions hold: no requirement blocks remain, spec still well-formed with ## Purpose, was not already empty, every remaining line accounted for, .openspec.yaml declares retire_capabilities: true, and path resolves inside the real specs root. Prevents accidental capability deletion."
+    },
+    {
+      "id": "agents_nextjs_agent_rules",
+      "label": "Next.js Agent Rules Block",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude_md",
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_kairos_platform",
+      "label": "KAIROS Platform Overview (README)",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_kairos_concept",
+      "label": "Kairos (The Opportune Moment)",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\README.md",
+      "source_location": "lines 26-41",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Brand thesis: qualitative, opportunistic time - the fleeting decisive moment where conditions align to create an unprecedented edge. Justifies the product's focus on precision execution timing over frequency ('In financial markets, Chronos is noise - Kairos is edge')."
+    },
+    {
+      "id": "readme_chronos",
+      "label": "Chronos (Quantitative Time)",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\README.md",
+      "source_location": "lines 28-34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_prd_kairos_platform",
+      "label": "Kairos Platform (PRD Product Definition)",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_prd_two_service_architecture",
+      "label": "Two-Service Architecture",
+      "file_type": "rationale",
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Architecture section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Next.js web app and Freqtrade are completely decoupled, communicating via REST API. Next.js API routes act as proxies so Freqtrade credentials never reach the browser client."
+    },
+    {
+      "id": "docs_prd_freqtrade",
+      "label": "Freqtrade REST API Integration",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Trading Bot section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_prd_supabase_auth",
+      "label": "Supabase Authentication & User Data",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Database Schema section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_prd_binance_websocket",
+      "label": "Binance WebSocket Market Data",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Market Data section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_prd_news_sentiment",
+      "label": "AI News Sentiment Analysis",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "News & Sentiment section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "LLM is used ONLY for news analysis, never for trade execution decisions - a deliberate safety boundary keeping AI sentiment out of the trading loop."
+    },
+    {
+      "id": "docs_prd_dry_run_mode",
+      "label": "Dry-Run Paper Trading Mode",
+      "file_type": "rationale",
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Trading Bot section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Bot runs in dry-run mode against Binance Testnet by default so no real money is at risk during platform validation; live trading with real money is out of scope."
+    },
+    {
+      "id": "docs_prd_lightweight_charts",
+      "label": "lightweight-charts Charting",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Market Data section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_prd_dashboard",
+      "label": "Real-Time Dashboard",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Dashboard user stories",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "src_app_fonts_gfs_didot_gfs_didot",
+      "label": "GFS Didot Font (OFL)",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\src\\app\\fonts\\GFS_Didot\\OFL.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "GREEK FONT SOCIETY",
+      "contributor": null
+    },
+    {
+      "id": "src_app_fonts_jetbrains_mono_jetbrains_mono",
+      "label": "JetBrains Mono Variable Font",
+      "file_type": "document",
+      "source_file": "D:\\kairos\\kairos\\src\\app\\fonts\\JetBrains_Mono\\README.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "The JetBrains Mono Project Authors",
+      "contributor": null
+    },
+    {
+      "id": "src_app_fonts_jetbrains_mono_ofl_sil_open_font_license",
+      "label": "SIL Open Font License 1.1",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\src\\app\\fonts\\JetBrains_Mono\\OFL.txt",
+      "source_location": null,
+      "source_url": "https://openfontlicense.org",
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_file",
+      "label": "file.svg - generic document/page icon (Next.js create-next-app boilerplate asset)",
+      "file_type": "image",
+      "source_file": "D:\\kairos\\kairos\\public\\file.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_document_icon",
+      "label": "Concept: generic document/file glyph - 16x16 monochrome (#666) page with folded top-right corner and horizontal text lines",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\public\\file.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_globe_icon",
+      "label": "globe.svg - 16x16 gray (#666) globe wireframe icon (standard create-next-app boilerplate asset)",
+      "file_type": "image",
+      "source_file": "D:\\kairos\\kairos\\public\\globe.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_globe_nextjs_static_asset_convention",
+      "label": "Next.js public/ directory static asset serving convention (create-next-app default icons: globe, file, window, vercel)",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\public\\globe.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_next",
+      "label": "Next.js Logo (SVG wordmark, black fill)",
+      "file_type": "image",
+      "source_file": "D:\\kairos\\kairos\\public\\next.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_vercel_svg",
+      "label": "vercel.svg - Vercel logomark: single white (#fff) upward-pointing triangle path on 1155x1000 viewBox, transparent background; standard create-next-app boilerplate static asset served from /vercel.svg",
+      "file_type": "image",
+      "source_file": "D:\\kairos\\kairos\\public\\vercel.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": "Vercel (upstream create-next-app boilerplate asset)"
+    },
+    {
+      "id": "public_vercel_vercel_logomark_concept",
+      "label": "Concept: Vercel brand logomark (triangle) - the SVG depicts Vercel's corporate identity mark, shipped as leftover Next.js scaffolding rather than Kairos-specific branding",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\public\\vercel.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_window_icon",
+      "label": "window.svg - standard Next.js boilerplate browser-window icon (16x16 gray outline window with three traffic-light dots)",
+      "file_type": "image",
+      "source_file": "D:\\kairos\\kairos\\public\\window.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_nextjs_boilerplate_static_assets",
+      "label": "Next.js create-next-app default static assets (vercel.svg, next.svg, window.svg, etc.)",
+      "file_type": "concept",
+      "source_file": "D:\\kairos\\kairos\\public\\window.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "_opencode_commands_opsx_apply_workflow",
+      "target": "_opencode_commands_opsx_archive_workflow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-apply.md",
+      "source_location": "line 136",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_propose_workflow",
+      "target": "_opencode_commands_opsx_apply_workflow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-propose.md",
+      "source_location": "line 123",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_archive_workflow",
+      "target": "_opencode_commands_opsx_sync_workflow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-archive.md",
+      "source_location": "line 113",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_update_workflow",
+      "target": "_opencode_commands_opsx_apply_workflow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-update.md",
+      "source_location": "line 68",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_update_workflow",
+      "target": "_opencode_commands_opsx_archive_workflow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-update.md",
+      "source_location": "line 69",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_archive_change_skill",
+      "target": "_opencode_skills_openspec_sync_specs_skill",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-archive-change\\SKILL.md",
+      "source_location": "line 120",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_propose_skill",
+      "target": "_opencode_skills_openspec_apply_change_skill",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-propose\\SKILL.md",
+      "source_location": "line 130",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_apply_change_skill",
+      "target": "_opencode_skills_openspec_archive_change_skill",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-apply-change\\SKILL.md",
+      "source_location": "line 143",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_update_change_skill",
+      "target": "_opencode_skills_openspec_apply_change_skill",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-update-change\\SKILL.md",
+      "source_location": "line 75",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_update_change_skill",
+      "target": "_opencode_skills_openspec_archive_change_skill",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-update-change\\SKILL.md",
+      "source_location": "line 76",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_apply_workflow",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-apply.md",
+      "source_location": "lines 24-35",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_archive_workflow",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-archive.md",
+      "source_location": "lines 31-105",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_explore_workflow",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-explore.md",
+      "source_location": "lines 88-115",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_propose_workflow",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-propose.md",
+      "source_location": "lines 54-99",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_sync_workflow",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-sync.md",
+      "source_location": "lines 32-147",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_update_workflow",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-update.md",
+      "source_location": "lines 34-64",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_apply_change_skill",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-apply-change\\SKILL.md",
+      "source_location": "lines 31-43",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_archive_change_skill",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-archive-change\\SKILL.md",
+      "source_location": "lines 38-112",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_explore_skill",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-explore\\SKILL.md",
+      "source_location": "lines 87-114",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_propose_skill",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-propose\\SKILL.md",
+      "source_location": "lines 61-89",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_sync_specs_skill",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-sync-specs\\SKILL.md",
+      "source_location": "lines 39-154",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_update_change_skill",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-update-change\\SKILL.md",
+      "source_location": "lines 41-70",
+      "weight": 1.0
+    },
+    {
+      "source": "openspec_config_yaml",
+      "target": "openspec_config_spec_driven_schema",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\openspec\\config.yaml",
+      "source_location": "line 1",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_apply_workflow",
+      "target": "_opencode_skills_openspec_apply_change_skill",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-apply.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_archive_workflow",
+      "target": "_opencode_skills_openspec_archive_change_skill",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-archive.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_explore_workflow",
+      "target": "_opencode_skills_openspec_explore_skill",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-explore.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_propose_workflow",
+      "target": "_opencode_skills_openspec_propose_skill",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-propose.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_sync_workflow",
+      "target": "_opencode_skills_openspec_sync_specs_skill",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-sync.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_update_workflow",
+      "target": "_opencode_skills_openspec_update_change_skill",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-update.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_propose_skill",
+      "target": "_opencode_skills_openspec_propose_planning_boundary",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-propose\\SKILL.md",
+      "source_location": "line 15",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_propose_workflow",
+      "target": "_opencode_skills_openspec_propose_planning_boundary",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-propose.md",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_explore_skill",
+      "target": "_opencode_skills_openspec_explore_explore_mode_stance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-explore\\SKILL.md",
+      "source_location": "lines 13-17",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_explore_workflow",
+      "target": "_opencode_skills_openspec_explore_explore_mode_stance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-explore.md",
+      "source_location": "lines 5-9",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_sync_specs_skill",
+      "target": "_opencode_skills_openspec_sync_specs_intelligent_merge",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-sync-specs\\SKILL.md",
+      "source_location": "line 226",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_sync_workflow",
+      "target": "_opencode_skills_openspec_sync_specs_intelligent_merge",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-sync.md",
+      "source_location": "line 219",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_apply_change_skill",
+      "target": "_opencode_skills_openspec_apply_change_fluid_workflow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-apply-change\\SKILL.md",
+      "source_location": "lines 183-188",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_commands_opsx_apply_workflow",
+      "target": "_opencode_skills_openspec_apply_change_fluid_workflow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-apply.md",
+      "source_location": "lines 176-181",
+      "weight": 1.0
+    },
+    {
+      "source": "_opencode_skills_openspec_sync_specs_skill",
+      "target": "_opencode_skills_openspec_sync_specs_capability_retirement",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\skills\\openspec-sync-specs\\SKILL.md",
+      "source_location": "lines 113-136",
+      "weight": 1.0
+    },
+    {
+      "source": "claude_md",
+      "target": "agents_nextjs_agent_rules",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\CLAUDE.md",
+      "source_location": "line 1",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_nextjs_agent_rules",
+      "target": "_opencode_commands_opsx_apply_openspec_cli",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.2,
+      "source_file": "D:\\kairos\\kairos\\AGENTS.md",
+      "source_location": null,
+      "weight": 0.3
+    },
+    {
+      "source": "readme_kairos_platform",
+      "target": "readme_kairos_concept",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\README.md",
+      "source_location": "lines 26-41",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_chronos",
+      "target": "readme_kairos_concept",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\README.md",
+      "source_location": "lines 28-34",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_kairos_concept",
+      "target": "readme_kairos_platform",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\README.md",
+      "source_location": "line 37",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_kairos_platform",
+      "target": "docs_prd_freqtrade",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\README.md",
+      "source_location": "line 20",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_kairos_platform",
+      "target": "docs_prd_kairos_platform",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\kairos\\kairos\\README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_kairos_platform",
+      "target": "readme_kairos_concept",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Further Notes section",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_kairos_platform",
+      "target": "docs_prd_two_service_architecture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Architecture section",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_two_service_architecture",
+      "target": "docs_prd_freqtrade",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Architecture section",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_kairos_platform",
+      "target": "docs_prd_supabase_auth",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Authentication stories",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_kairos_platform",
+      "target": "docs_prd_binance_websocket",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Market Data section",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_kairos_platform",
+      "target": "docs_prd_news_sentiment",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "News & Sentiment section",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_kairos_platform",
+      "target": "docs_prd_dashboard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Dashboard stories",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_freqtrade",
+      "target": "docs_prd_dry_run_mode",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Trading Bot section",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_dry_run_mode",
+      "target": "docs_prd_freqtrade",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Out of Scope section",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_news_sentiment",
+      "target": "docs_prd_supabase_auth",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "News & Sentiment section",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_dashboard",
+      "target": "docs_prd_binance_websocket",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_lightweight_charts",
+      "target": "docs_prd_binance_websocket",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "docs_prd_dashboard",
+      "target": "docs_prd_lightweight_charts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md",
+      "source_location": "Market Data stories 27-28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_fonts_gfs_didot_gfs_didot",
+      "target": "src_app_fonts_jetbrains_mono_ofl_sil_open_font_license",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\src\\app\\fonts\\GFS_Didot\\OFL.txt",
+      "source_location": "lines 4-6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_fonts_jetbrains_mono_jetbrains_mono",
+      "target": "src_app_fonts_jetbrains_mono_ofl_sil_open_font_license",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\src\\app\\fonts\\JetBrains_Mono\\README.txt",
+      "source_location": "lines 70-73",
+      "weight": 1.0
+    },
+    {
+      "source": "public_file",
+      "target": "concept_document_icon",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\kairos\\kairos\\public\\file.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_globe_icon",
+      "target": "public_globe_nextjs_static_asset_convention",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\kairos\\kairos\\public\\globe.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_vercel_svg",
+      "target": "public_vercel_vercel_logomark_concept",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\kairos\\kairos\\public\\vercel.svg",
+      "source_location": "line 1",
+      "weight": 1.0
+    },
+    {
+      "source": "public_window_icon",
+      "target": "concept_nextjs_boilerplate_static_assets",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\kairos\\kairos\\public\\window.svg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "opspec_change_lifecycle",
+      "label": "OpenSpec Change Lifecycle (explore -> propose -> apply -> update -> sync -> archive)",
+      "nodes": [
+        "_opencode_commands_opsx_explore_workflow",
+        "_opencode_commands_opsx_propose_workflow",
+        "_opencode_commands_opsx_apply_workflow",
+        "_opencode_commands_opsx_update_workflow",
+        "_opencode_commands_opsx_sync_workflow",
+        "_opencode_commands_opsx_archive_workflow"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\.opencode\\commands\\opsx-propose.md"
+    },
+    {
+      "id": "kairos_core_feature_set",
+      "label": "Kairos Core Feature Set",
+      "nodes": [
+        "docs_prd_dashboard",
+        "docs_prd_freqtrade",
+        "docs_prd_supabase_auth",
+        "docs_prd_binance_websocket",
+        "docs_prd_news_sentiment"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\docs\\PRD.md"
+    },
+    {
+      "id": "ofl_bundled_fonts",
+      "label": "OFL-Licensed Bundled Web Fonts",
+      "nodes": [
+        "src_app_fonts_gfs_didot_gfs_didot",
+        "src_app_fonts_jetbrains_mono_jetbrains_mono",
+        "src_app_fonts_jetbrains_mono_ofl_sil_open_font_license"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\kairos\\kairos\\src\\app\\fonts\\JetBrains_Mono\\OFL.txt"
+    }
+  ],
+  "input_tokens": 49250,
+  "output_tokens": 9700
+}
