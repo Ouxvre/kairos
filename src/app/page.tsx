@@ -20,7 +20,6 @@ export default function Home() {
             <FeaturePanel />
           </main>
           <Footer />
-          <div className="ks-frame" aria-hidden="true" />
           <ScrollFx />
         </div>
       </SmoothScroll>

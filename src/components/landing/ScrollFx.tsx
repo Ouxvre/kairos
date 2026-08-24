@@ -29,7 +29,14 @@ export default function ScrollFx() {
         },
         { rootMargin: "0px 0px -10% 0px" }
       );
-      revealEls.forEach((el) => io?.observe(el));
+      revealEls.forEach((el) => {
+        const r = el.getBoundingClientRect();
+        if (r.top < window.innerHeight && r.bottom > 0) {
+          el.classList.add("is-inview");
+        } else {
+          io?.observe(el);
+        }
+      });
     }
 
     const parallaxEls = Array.from(
