@@ -26,7 +26,9 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "KAIROS — Master the Moment",
-  description: "Institutional-Grade AI Crypto Trading Control Panel",
+  description:
+    "Institutional-grade AI auto-trading control panel for crypto markets. Freqtrade engine, live Binance streams, LLM-scored news sentiment — dry-run first.",
+  metadataBase: new URL("http://localhost:3000"),
 };
 
 export default function RootLayout({

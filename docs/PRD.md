@@ -109,7 +109,6 @@ The initial deployment targets **personal use** on localhost/VPS with a single F
 - Next.js 16 with App Router (route groups for auth vs dashboard layouts)
 - Tailwind CSS v4 (already configured in project)
 - Dark theme as default with crypto-aesthetic design (gradients, glassmorphism, micro-animations)
-- Inter or Outfit font from Google Fonts
 
 ### Database Schema (Supabase)
 
