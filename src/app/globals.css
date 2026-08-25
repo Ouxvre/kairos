@@ -463,3 +463,58 @@ a.ks-btn-solid:hover {
     transform: translateY(100%);
   }
 }
+
+/* auth page animations */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideRightIn {
+  from { opacity: 0; transform: translateX(-24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes testimonialIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseBorder {
+  0%, 100% { box-shadow: 0 0 0 1px var(--k-panel-line); }
+  50% { box-shadow: 0 0 0 3px var(--k-up); }
+}
+
+/* ---------------------------------- */
+/* shadcn-style tokens (auth pages)   */
+/* ---------------------------------- */
+
+@theme inline {
+  --color-background: #171308;
+  --color-foreground: #f4f4f6;
+  --color-card: #1d1810;
+  --color-card-foreground: #f4f4f6;
+  --color-primary: #171308;
+  --color-primary-foreground: #ece5d3;
+  --color-secondary: rgb(23 19 8 / 0.08);
+  --color-secondary-foreground: #171308;
+  --color-muted: rgb(23 19 8 / 0.08);
+  --color-muted-foreground: rgb(23 19 8 / 0.62);
+  --color-accent: #a8862a;
+  --color-accent-foreground: #171308;
+  --color-destructive: #dc2626;
+  --color-border: rgb(23 19 8 / 0.22);
+  --color-input: rgb(23 19 8 / 0.22);
+  --color-ring: rgb(23 19 8 / 0.45);
+}
