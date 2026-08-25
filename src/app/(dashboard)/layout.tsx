@@ -3,18 +3,10 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { getSupabase } from "@/lib/supabase/client";
+import { LiveTicker } from "@/components/dashboard/live-ticker";
 import { Sidebar } from "@/components/dashboard/sidebar";
 
 import type { User } from "@supabase/supabase-js";
-
-const TICKER = [
-  "BTC/USDT $67,240 ▲ 2.1%",
-  "ETH/USDT $3,512 ▲ 1.4%",
-  "SOL/USDT $184.20 ▼ 0.8%",
-  "BNB/USDT $598.10 ▲ 0.6%",
-  "Market cap $2.41T ▲ 1.2%",
-  "Fear & Greed: 72 — Greed",
-].join("　·　");
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   const router = useRouter();
@@ -70,12 +62,9 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           Bot stopped
         </span>
 
-        {/* News / market ticker */}
+        {/* Live market ticker */}
         <div className="relative hidden min-w-0 flex-1 overflow-hidden md:block" aria-hidden="true">
-          <div className="k-ticker-track text-xs text-white/50">
-            <span className="whitespace-nowrap pr-12">{TICKER}</span>
-            <span className="whitespace-nowrap pr-12">{TICKER}</span>
-          </div>
+          <LiveTicker />
         </div>
 
         <div className="ml-auto flex shrink-0 items-center gap-3">
