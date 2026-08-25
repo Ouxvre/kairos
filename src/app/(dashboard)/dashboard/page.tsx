@@ -1,3 +1,6 @@
+import { LiveMarketWidget } from "@/components/dashboard/live-market-widget";
+import { NewsWidget } from "@/components/dashboard/news-widget";
+
 export default function DashboardPage() {
   return (
     <div>
@@ -28,6 +31,12 @@ export default function DashboardPage() {
           <div className="text-2xl font-bold text-white">0</div>
           <div className="text-xs text-white/40 mt-1">Active positions</div>
         </div>
+      </div>
+
+      {/* Live market + news */}
+      <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-6 mb-8">
+        <LiveMarketWidget />
+        <NewsWidget />
       </div>
 
       {/* Bot Status */}

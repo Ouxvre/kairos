@@ -8,8 +8,8 @@ import {
   Bot,
   ChartLine,
   LayoutDashboard,
-  Newspaper,
   PanelLeft,
+  Wallet,
 } from "lucide-react";
 
 const NAV = [
@@ -17,7 +17,7 @@ const NAV = [
   { href: "/dashboard/bot", label: "Bot", icon: Bot },
   { href: "/dashboard/trades", label: "Trades", icon: ArrowLeftRight },
   { href: "/dashboard/market", label: "Market", icon: ChartLine },
-  { href: "/dashboard/news", label: "News", icon: Newspaper },
+  { href: "/dashboard/portfolio", label: "Portfolio", icon: Wallet },
 ];
 
 export function Sidebar() {
