@@ -193,6 +193,53 @@ a.ks-btn-solid:hover {
   border-color: var(--k-accent-bright);
 }
 
+button.ks-btn-solid {
+  background: var(--k-accent);
+  border-color: var(--k-accent);
+  color: var(--k-bg);
+  cursor: pointer;
+}
+
+button.ks-btn-solid:hover {
+  background: var(--k-accent-bright);
+  border-color: var(--k-accent-bright);
+}
+
+button.ks-btn-solid:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}
+
+.ks-input {
+  min-width: 0;
+  padding: calc(20 * var(--u)) calc(24 * var(--u));
+  background: transparent;
+  border: 1px solid var(--k-line);
+  border-radius: calc(4 * var(--u));
+  color: var(--k-fg);
+  font-family: var(--font-mono), monospace;
+  font-size: calc(18 * var(--u));
+  letter-spacing: 0.12em;
+  transition: border-color 0.3s;
+}
+
+.ks-input:focus {
+  outline: none;
+  border-color: var(--k-accent);
+}
+
+.ks-input::placeholder {
+  color: rgb(244 244 246 / 0.38);
+}
+
+.ks-hp {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
 /* ---------- surface treatments ---------- */
 
 .ks-vignette {

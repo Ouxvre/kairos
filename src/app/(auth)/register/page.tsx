@@ -26,6 +26,7 @@ export default function RegisterPage() {
   const [showConfirm, setShowConfirm] = useState(false);
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const [showJoinLink, setShowJoinLink] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const rules = {
@@ -38,6 +39,7 @@ export default function RegisterPage() {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setError(null);
+    setShowJoinLink(false);
 
     const data = new FormData(e.currentTarget);
     const values = Object.fromEntries(data.entries()) as Record<string, string>;
@@ -58,8 +60,26 @@ export default function RegisterPage() {
     setLoading(true);
     try {
       const supabase = getSupabase();
+      const email = values.email.trim();
+
+      const { data: seat, error: gateError } = (await supabase.rpc(
+        "claim_waitlist_seat",
+        { p_email: email } as never
+      )) as unknown as { data: number | null; error: Error | null };
+      if (gateError) throw gateError;
+      if (seat !== 1) {
+        setShowJoinLink(seat === 0);
+        throw new Error(
+          seat === 0
+            ? "This email isn't on the waitlist yet. Reserve your spot first."
+            : seat === 3
+              ? "You're on the list, but your access hasn't been unlocked yet. Seats open in waves — we'll let you know."
+              : "The waitlist slot for this email has already been used."
+        );
+      }
+
       const { error: authError } = await supabase.auth.signUp({
-        email: values.email,
+        email,
         password: values.password,
         options: {
           data: {
@@ -69,7 +89,14 @@ export default function RegisterPage() {
           },
         },
       });
-      if (authError) throw authError;
+      if (authError) {
+        try {
+          await supabase.rpc("release_waitlist_seat", { p_email: email } as never);
+        } catch {
+          /* best effort */
+        }
+        throw authError;
+      }
 
       router.push("/dashboard");
     } catch (err) {
@@ -89,6 +116,17 @@ export default function RegisterPage() {
         {error && (
           <div className="rounded-md border border-destructive/30 bg-destructive/10 px-4 py-3 text-sm text-destructive">
             {error}
+            {showJoinLink && (
+              <>
+                {" "}
+                <Link
+                  href="/#waitlist"
+                  className="font-medium underline underline-offset-4"
+                >
+                  Join the waitlist
+                </Link>
+              </>
+            )}
           </div>
         )}
 

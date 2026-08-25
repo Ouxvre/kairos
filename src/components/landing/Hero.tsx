@@ -68,8 +68,8 @@ export function Hero() {
         </h1>
 
         <div data-reveal>
-          <a href="/dashboard" className="ks-btn ks-btn-solid self-start">
-            Launch App
+          <a href="#waitlist" className="ks-btn ks-btn-solid self-start">
+            Join The Waitlist
           </a>
         </div>
       </div>

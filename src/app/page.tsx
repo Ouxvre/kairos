@@ -18,6 +18,7 @@ export default function Home() {
             <ShowcasePreview />
             <PlatformCards />
             <FeaturePanel />
+            <section id="waitlist" className="h-0" aria-hidden="true" />
           </main>
           <Footer />
           <ScrollFx />
