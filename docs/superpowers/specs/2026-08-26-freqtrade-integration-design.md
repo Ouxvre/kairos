@@ -17,6 +17,7 @@ Next.js API proxy layer → Freqtrade REST API with SWR for client-side data fet
 | Health polling | 5s while dashboard open |
 | Timeout per call | 5s (`AbortController`) |
 | Credentials approach | Hybrid — multi-user schema, single-bot implementation |
+| Deployment | Full Next.js server — `output: "export"` removed (API routes need a runtime); host TBD (Cloudflare Workers/OpenNext, Vercel, or VPS Node) |
 
 ## Architecture
 
@@ -43,7 +44,7 @@ Freqtrade credentials never reach the browser. All bot traffic flows through Nex
 `fetchFreqtrade(path, opts)`:
 - Reads credentials from `.env` (`FREQTRADE_URL`, `FREQTRADE_USER`, `FREQTRADE_PASS`) in phases 1–2; from `user_settings` in phase 4+
 - 5s timeout via `AbortController`
-- JWT: POST `/api/v1/token/login` on auth, token cached server-side in memory; refresh once on 401 then retry, fail as `AUTH_FAIL` if still 401
+- Auth: HTTP Basic header on every request (Freqtrade accepts Basic and JWT; Basic is stateless — no token cache, no refresh dance)
 - Standardized response: `{ ok: boolean, data?: T, error?: string, code?: 'TIMEOUT'|'CONN_REFUSED'|'AUTH_FAIL'|'FTD_ERROR' }`
 
 ### 2. Client data layer — `lib/swr.ts`
@@ -87,7 +88,7 @@ API Route Wrapper
         ↓
   ├─ Timeout 5s   → { ok:false, code:'TIMEOUT' }
   ├─ Conn refused → { ok:false, code:'CONN_REFUSED' }
-  ├─ 401          → refresh JWT once, retry; still 401 → { ok:false, code:'AUTH_FAIL' }
+  ├─ 401          → { ok:false, code:'AUTH_FAIL' } (check FREQTRADE_USER/PASS)
   ├─ 5xx          → { ok:false, code:'FTD_ERROR' }
   └─ Success      → { ok:true, data }
 
