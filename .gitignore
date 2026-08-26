@@ -44,3 +44,4 @@ next-env.d.ts
 .codegraph/
 .opencode/node_modules/
 .superpowers
+.originkit/

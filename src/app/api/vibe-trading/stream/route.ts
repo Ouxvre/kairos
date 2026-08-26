@@ -64,7 +64,7 @@ export async function POST(req: NextRequest) {
         const text = data?.candidates?.[0]?.content?.parts?.[0]?.text || "";
 
         // Parse JSON dari response Gemini
-        let jsonMatch = text.match(/\{[\s\S]*\}/);
+        const jsonMatch = text.match(/\{[\s\S]*\}/);
         if (!jsonMatch) throw new Error("No JSON found in Gemini response");
 
         const result = JSON.parse(jsonMatch[0]);
