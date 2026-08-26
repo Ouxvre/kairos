@@ -18,12 +18,19 @@ export default function BotPage() {
   const [busy, setBusy] = useState<Action | null>(null);
   const [actionError, setActionError] = useState<string | null>(null);
 
-  if (error) return <BotOfflineFallback error={error.message} />;
+  if (error)
+    return (
+      <div className="h-full overflow-y-auto p-6 md:p-8">
+        <BotOfflineFallback error={error.message} />
+      </div>
+    );
 
   if (isLoading || !config) {
     return (
-      <div className="rounded-xl border border-white/10 bg-white/5 px-6 py-16 text-center text-sm text-white/40 backdrop-blur-md">
-        Loading bot status…
+      <div className="h-full overflow-y-auto p-6 md:p-8">
+        <div className="rounded-xl border border-white/10 bg-white/5 px-6 py-16 text-center text-sm text-white/40 backdrop-blur-md">
+          Loading bot status…
+        </div>
       </div>
     );
   }
@@ -44,6 +51,7 @@ export default function BotPage() {
   }
 
   return (
+    <div className="h-full overflow-y-auto p-6 md:p-8">
     <div className="flex flex-col gap-6">
       <h1 className="font-serif text-3xl text-white">Bot Control</h1>
 
@@ -109,6 +117,7 @@ export default function BotPage() {
           </div>
         )}
       </section>
+    </div>
     </div>
   );
 }

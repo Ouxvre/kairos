@@ -3,8 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { getSupabase } from "@/lib/supabase/client";
-import { LiveTicker } from "@/components/dashboard/live-ticker";
-import { Sidebar } from "@/components/dashboard/sidebar";
+import { TopNav } from "@/components/terminal/top-nav";
 
 import type { User } from "@supabase/supabase-js";
 
@@ -44,44 +43,19 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[var(--k-bg)]">
-        <div className="text-white/60">Loading...</div>
+      <div className="min-h-screen flex items-center justify-center bg-[#0a0a0a]">
+        <div className="text-white/40">Loading...</div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-[var(--k-bg)]">
-      {/* Top bar */}
-      <header className="sticky top-0 z-40 flex h-14 items-center gap-4 border-b border-white/10 bg-black/30 px-4 backdrop-blur-md md:px-6">
-        <div className="text-lg font-serif tracking-wide text-white">KAIROS</div>
-
-        {/* Bot status indicator */}
-        <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full border border-red-400/30 bg-red-400/10 px-2.5 py-0.5 text-[11px] uppercase tracking-wider text-red-300">
-          <span className="size-1.5 rounded-full bg-red-400" />
-          Bot stopped
-        </span>
-
-        {/* Live market ticker */}
-        <div className="relative hidden min-w-0 flex-1 overflow-hidden md:block" aria-hidden="true">
-          <LiveTicker />
-        </div>
-
-        <div className="ml-auto flex shrink-0 items-center gap-3">
-          <span className="hidden text-xs text-white/60 sm:block">{user?.email}</span>
-          <button
-            onClick={handleLogout}
-            className="rounded-lg border border-white/10 px-3 py-1 text-xs uppercase tracking-wider text-white/60 hover:text-white"
-          >
-            Logout
-          </button>
-        </div>
-      </header>
-
-      {/* Sidebar + content */}
-      <div className="flex min-h-[calc(100vh-3.5rem)]">
-        <Sidebar />
-        <main className="min-w-0 flex-1 p-6 md:p-8">{children}</main>
+    /* tinggi dikunci ke viewport (bukan min-h-screen) — kalau tidak, grid
+       terminal memanjangkan halaman alih-alih menyusutkan baris atas */
+    <div className="h-dvh bg-[#0a0a0a] flex flex-col overflow-hidden">
+      <TopNav user={user} onLogout={handleLogout} />
+      <div className="flex flex-1 overflow-hidden">
+        {children}
       </div>
     </div>
   );

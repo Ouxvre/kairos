@@ -14,7 +14,7 @@ export const dynamic = "force-dynamic";
 
 const json = (r: unknown, status = 200) => Response.json(r, { status });
 
-async function dispatch(method: string, segs: string[]): Promise<Response> {
+async function dispatch(method: string, segs: string[], body?: unknown): Promise<Response> {
   const [name, arg] = segs;
 
   switch (`${method} ${name ?? ""}`) {
@@ -26,6 +26,26 @@ async function dispatch(method: string, segs: string[]): Promise<Response> {
       return json(await fetchFreqtrade("/stop", { method: "POST" }));
     case "POST reload":
       return json(await fetchFreqtrade("/reload_config", { method: "POST" }));
+    case "POST entry": {
+      const { pair, side, stakeamount } = (body ?? {}) as {
+        pair?: string;
+        side?: string;
+        stakeamount?: number;
+      };
+      if (!pair || (side !== "long" && side !== "short")) {
+        return json({ ok: false, code: "FTD_ERROR", error: "pair and side (long|short) required" }, 400);
+      }
+      return json(
+        await fetchFreqtrade("/forceentry", {
+          method: "POST",
+          body: {
+            pair,
+            side,
+            ...(stakeamount !== undefined && stakeamount > 0 ? { stakeamount } : {}),
+          },
+        }),
+      );
+    }
     case "GET trades": {
       const [open, closed] = await Promise.all([
         fetchFreqtrade<OpenTrade[]>("/status"),
@@ -93,9 +113,15 @@ export async function GET(
 }
 
 export async function POST(
-  _req: NextRequest,
+  req: NextRequest,
   { params }: { params: Promise<{ action: string[] }> },
 ) {
   const { action } = await params;
-  return dispatch("POST", action);
+  let body: unknown;
+  try {
+    body = await req.json();
+  } catch {
+    body = undefined;
+  }
+  return dispatch("POST", action, body);
 }

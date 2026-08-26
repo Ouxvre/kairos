@@ -587,6 +587,181 @@ button.ks-btn-solid:disabled {
 }
 
 /* ---------------------------------- */
+/* Terminal grid layout               */
+/* ---------------------------------- */
+
+.kt-workspace {
+  position: relative;
+  display: grid;
+  grid-template-columns: 180px 1fr 220px 180px;
+  grid-template-rows: 1fr 200px;
+  grid-template-areas:
+    "sidebar chart orderbook execution"
+    "bottom bottom bottom bottom";
+  width: 100%;
+  height: 100%;
+  gap: 6px;
+  background: #0a0a0a;
+  overflow: hidden;
+  padding: 6px;
+}
+
+.kt-zone {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #111113;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 10px;
+  border: 1px solid rgb(255 255 255 / 0.06);
+}
+
+.kt-zone-sidebar {
+  grid-area: sidebar;
+  background: #0e0e10;
+}
+
+.kt-zone-sidepanel {
+  /* positioned absolutely in workspace.tsx — grid-area not used */
+}
+
+.kt-zone-chart {
+  grid-area: chart;
+}
+
+.kt-zone-orderbook {
+  grid-area: orderbook;
+}
+
+.kt-zone-execution {
+  grid-area: execution;
+}
+
+.kt-zone-bottom {
+  grid-area: bottom;
+}
+
+/* Panel inner layouts */
+.kt-left-sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-right: 1px solid rgb(255 255 255 / 0.06);
+}
+
+
+
+/* ── Resize grips ── */
+
+.kt-grip {
+  position: absolute;
+  z-index: 40;
+  background: transparent;
+}
+
+/* Vertical grip (column divider) — covers the 4px gap */
+.kt-grip-v {
+  /* top/left/height set by inline style per-grip */
+  width: 10px;
+  cursor: col-resize;
+}
+
+.kt-grip-v::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  transition: background 0.15s;
+}
+
+.kt-grip-v:hover::after {
+  background: rgb(255 255 255 / 0.07);
+  border-radius: 2px;
+}
+
+/* Horizontal grip (row divider) — covers the 4px gap */
+.kt-grip-h {
+  /* bottom/left/right/top/width set by inline style per-grip */
+  height: 10px;
+  cursor: row-resize;
+}
+
+.kt-grip-h::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  transition: background 0.15s;
+}
+
+.kt-grip-h:hover::after {
+  background: rgb(255 255 255 / 0.07);
+  border-radius: 2px;
+}
+
+/* Full-screen overlay while dragging — blocks iframes from stealing events */
+.kt-drag-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+  cursor: grabbing;
+}
+
+/* Corner grip — sits at panel junctions, triggers both V+H resize */
+.kt-grip-corner {
+  position: absolute;
+  z-index: 45;
+  width: 16px;
+  height: 16px;
+  cursor: nwse-resize;
+  background: transparent;
+}
+
+/* Responsive: collapse to single column on small screens */
+@media (max-width: 900px) {
+  .kt-workspace {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "chart"
+      "bottom"
+      "sidebar";
+  }
+
+  .kt-zone-orderbook,
+  .kt-zone-execution,
+  .kt-zone-sidepanel {
+    display: none;
+  }
+
+  .kt-zone-sidebar {
+    border-right: none;
+    border-top: 1px solid rgb(255 255 255 / 0.06);
+  }
+
+  /* inline drag-widths dari grip tidak boleh membatasi layout satu kolom */
+  .kt-zone-sidebar,
+  .kt-zone-sidepanel {
+    width: 100% !important;
+  }
+
+  .kt-grip {
+    display: none;
+  }
+}
+
+/* Hide scrollbar utility for tab overflow */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ---------------------------------- */
 /* shadcn-style tokens (auth pages)   */
 /* ---------------------------------- */
 

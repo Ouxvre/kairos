@@ -22,12 +22,19 @@ export default function TradesPage() {
   const [exiting, setExiting] = useState<number | null>(null);
   const [pageError, setPageError] = useState<string | null>(null);
 
-  if (error) return <BotOfflineFallback error={error.message} />;
+  if (error)
+    return (
+      <div className="h-full overflow-y-auto p-6 md:p-8">
+        <BotOfflineFallback error={error.message} />
+      </div>
+    );
 
   if (isLoading || !data) {
     return (
-      <div className="rounded-xl border border-white/10 bg-white/5 px-6 py-16 text-center text-sm text-white/40 backdrop-blur-md">
-        Loading trades…
+      <div className="h-full overflow-y-auto p-6 md:p-8">
+        <div className="rounded-xl border border-white/10 bg-white/5 px-6 py-16 text-center text-sm text-white/40 backdrop-blur-md">
+          Loading trades…
+        </div>
       </div>
     );
   }
@@ -47,6 +54,7 @@ export default function TradesPage() {
   }
 
   return (
+    <div className="h-full overflow-y-auto p-6 md:p-8">
     <div className="flex flex-col gap-8">
       <h1 className="font-serif text-3xl text-white">Trades</h1>
 
@@ -161,6 +169,7 @@ export default function TradesPage() {
           </table>
         )}
       </section>
+    </div>
     </div>
   );
 }

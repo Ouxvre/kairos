@@ -112,3 +112,55 @@ export function formatPrice(n: number): string {
 
 export const formatCompact = (n: number) =>
   new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 }).format(n);
+
+export type Ticker24h = {
+  symbol: string;          // e.g., "BTCUSDT"
+  lastPrice: number;
+  priceChangePercent: number;
+};
+
+let _tickerPromise: Promise<Record<string, Ticker24h>> | null = null;
+
+const TICKER_CACHE_KEY = "kairos-tickers";
+const TICKER_CACHE_TTL = 30_000; /* 30 detik */
+
+export function fetchTickers(): Promise<Record<string, Ticker24h>> {
+  if (_tickerPromise) return _tickerPromise;
+  _tickerPromise = (async () => {
+    /* 1. Cache segar dari localStorage → popup instan tanpa fetch */
+    try {
+      const raw = localStorage.getItem(TICKER_CACHE_KEY);
+      if (raw) {
+        const { data, ts } = JSON.parse(raw) as { data: Record<string, Ticker24h>; ts: number };
+        if (Date.now() - ts < TICKER_CACHE_TTL && Object.keys(data).length > 0) return data;
+      }
+    } catch {}
+
+    /* 2. Fetch dari Binance, lalu simpan cache */
+    try {
+      const res = await fetch(`${REST}/ticker/24hr`);
+      if (!res.ok) return {};
+      const list = (await res.json()) as Array<{ symbol: string; lastPrice: string; priceChangePercent: string }>;
+      const tickers = Object.fromEntries(
+        list
+          .filter((t) => t.symbol.endsWith("USDT"))
+          .map((t) => [
+            t.symbol.replace(/USDT$/, ""),
+            {
+              symbol: t.symbol,
+              lastPrice: +t.lastPrice,
+              priceChangePercent: +t.priceChangePercent,
+            },
+          ]),
+      );
+      try {
+        localStorage.setItem(TICKER_CACHE_KEY, JSON.stringify({ data: tickers, ts: Date.now() }));
+      } catch {}
+      return tickers;
+    } catch {
+      _tickerPromise = null; /* gagal network → boleh retry di pembukaan berikutnya */
+      return {};
+    }
+  })();
+  return _tickerPromise;
+}
