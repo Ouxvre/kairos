@@ -1,10 +1,10 @@
 const CARDS = [
   {
-    tag: "Freqtrade Core",
-    title: "AI Trading Bot",
-    points: ["Start / stop / reload", "Force-exit positions", "Cumulative P&L charts"],
-    href: "/dashboard",
-    cta: "Control Bot",
+    tag: "AI Research Engine",
+    title: "Strategy Lab",
+    points: ["Natural language backtest", "460+ alpha factors", "Factor discovery & analysis"],
+    href: "/dashboard/strategy-lab",
+    cta: "Open Lab",
   },
   {
     tag: "Binance Stream",

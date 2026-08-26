@@ -1,9 +1,9 @@
 const FEATURES = [
   {
     n: "#1",
-    title: "Bot Control",
-    body: "Start, stop, reload and force-exit the Freqtrade engine without touching a terminal. Status, config and errors surfaced live.",
-    glyph: "▶",
+    title: "Strategy Lab",
+    body: "AI‑powered strategy research, backtesting, and factor discovery via natural‑language chat. 460+ alpha factors, quantlib engine.",
+    glyph: "🧪",
   },
   {
     n: "#2",

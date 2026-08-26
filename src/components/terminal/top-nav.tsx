@@ -9,7 +9,7 @@ import { ProfileModal } from "./profile-modal";
 
 const NAV_LINKS = [
   { label: "Terminal", href: "/dashboard" },
-  { label: "Bot", href: "/dashboard/bot" },
+  { label: "Strategy Lab", href: "/dashboard/strategy-lab" },
   { label: "Trades", href: "/dashboard/trades" },
   { label: "Portfolio", href: "/dashboard/portfolio" },
 ];

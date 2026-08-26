@@ -114,17 +114,17 @@ export function ShowcasePreview() {
                 </div>
               </div>
 
-              {/* bot status strip */}
+              {/* strategy lab status strip */}
               <div className="mt-[calc(18*var(--u))] flex items-center justify-between rounded-[calc(6*var(--u))] border border-[var(--k-line)] bg-white/[0.03] px-[calc(20*var(--u))] py-[calc(16*var(--u))] font-mono text-[length:calc(14*var(--u))] tracking-[0.16em]">
                 <span className="flex items-center gap-[calc(12*var(--u))]">
                   <span className="relative flex size-[calc(10*var(--u))]">
-                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--k-up)] opacity-60" />
-                    <span className="relative inline-flex size-[calc(10*var(--u))] rounded-full bg-[var(--k-up)]" />
+                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-indigo-400 opacity-60" />
+                    <span className="relative inline-flex size-[calc(10*var(--u))] rounded-full bg-indigo-400" />
                   </span>
-                  Bot Running &bull; Dry-Run
+                  Strategy Lab &bull; AI Agent Active
                 </span>
                 <span className="hidden text-[var(--k-muted)] sm:inline">
-                  Strategy: Kairos-v1
+                  Backtest Engine: Ready
                 </span>
               </div>
             </div>
