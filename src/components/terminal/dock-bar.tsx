@@ -71,7 +71,7 @@ export function DockBar() {
     <div className="flex h-11 shrink-0 items-center border-b border-white/[0.06] bg-[#0a0a0a] px-3">
 
       {/* Left: pairs or empty state */}
-      <div className="flex flex-1 items-center gap-2 overflow-x-auto min-w-0 pr-4">
+      <div className="scrollbar-none flex flex-1 items-center gap-2 overflow-x-auto overflow-y-hidden min-w-0">
         {isEmpty ? (
           <button
             onClick={openSearch}
@@ -140,7 +140,7 @@ export function DockBar() {
       </div>
 
       {/* Right: clock + toggle-back button */}
-      <div className="flex shrink-0 items-center gap-3">
+      <div className="flex shrink-0 items-center gap-3 pl-3 ml-1 border-l border-white/[0.06]">
         <div className="flex items-center gap-1.5 text-white/25">
           <Clock className="size-3" />
           <span className="font-mono text-[11px] tabular-nums text-white/35">{time}</span>
