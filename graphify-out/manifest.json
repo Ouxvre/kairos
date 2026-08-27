@@ -18,10 +18,10 @@
     "semantic_hash": "dfa1f5f6a7037bf39dc510f30b180002"
   },
   "next.config.ts": {
-    "mtime": 1787508663.9806197,
-    "seen": 1787577858.7439544,
-    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
-    "semantic_hash": "9b77af189a21a7a64e4bd7a426f64176"
+    "mtime": 1787686555.4198759,
+    "seen": 1787800832.4058638,
+    "ast_hash": "baa114f0c1b99d6080de98deb3ac9b63",
+    "semantic_hash": ""
   },
   "opencode.json": {
     "mtime": 1787571271.2470653,
@@ -30,10 +30,10 @@
     "semantic_hash": "fb3d7189cc24ac5cb91da4f139f6757c"
   },
   "package.json": {
-    "mtime": 1787565658.2066793,
-    "seen": 1787577858.7439544,
-    "ast_hash": "6e9de788387a2a707d83d43ae80115e0",
-    "semantic_hash": "6e9de788387a2a707d83d43ae80115e0"
+    "mtime": 1787698710.3545425,
+    "seen": 1787800832.4058638,
+    "ast_hash": "7d5995411efc1fe12f8e57ba94814bbc",
+    "semantic_hash": ""
   },
   "postcss.config.mjs": {
     "mtime": 1787508663.7996385,
@@ -42,16 +42,16 @@
     "semantic_hash": "239f3ebf717465dc636818a1a619398d"
   },
   "src/app/layout.tsx": {
-    "mtime": 1787571858.6839569,
-    "seen": 1787577858.7439544,
-    "ast_hash": "cf59a1f6203128d1d757d4860f8e2faa",
-    "semantic_hash": "cf59a1f6203128d1d757d4860f8e2faa"
+    "mtime": 1787624001.1204598,
+    "seen": 1787800832.4058638,
+    "ast_hash": "5cbc4c9e0bc3056bde65b78f41da7a31",
+    "semantic_hash": ""
   },
   "src/app/page.tsx": {
-    "mtime": 1787565658.205529,
-    "seen": 1787577858.7439544,
-    "ast_hash": "7960d56e7fc48ecd789e2fd32155fa90",
-    "semantic_hash": "7960d56e7fc48ecd789e2fd32155fa90"
+    "mtime": 1787669809.646677,
+    "seen": 1787800832.4058638,
+    "ast_hash": "eca01858de8f76999a222b57abe06cf1",
+    "semantic_hash": ""
   },
   "tsconfig.json": {
     "mtime": 1787565658.2024517,
@@ -132,10 +132,10 @@
     "semantic_hash": "dcb19e8eff6daaf3a8eafd92dd780489"
   },
   "AGENTS.md": {
-    "mtime": 1787565749.612283,
-    "seen": 1787577858.7439544,
-    "ast_hash": "01e8142356e15c3404e0d84c48187cd0",
-    "semantic_hash": "01e8142356e15c3404e0d84c48187cd0"
+    "mtime": 1787611663.4887202,
+    "seen": 1787800832.4058638,
+    "ast_hash": "9e32c89e4703a65a6588bd8e41dd555d",
+    "semantic_hash": ""
   },
   "CLAUDE.md": {
     "mtime": 1787565749.6128764,
@@ -150,16 +150,16 @@
     "semantic_hash": "92a9945e191b626a2b128ac66a592cf0"
   },
   "docs/PRD.md": {
-    "mtime": 1787570786.649804,
-    "seen": 1787577858.7439544,
-    "ast_hash": "b9f2b28657706ce3bc1449bfdccf65e3",
-    "semantic_hash": "b9f2b28657706ce3bc1449bfdccf65e3"
+    "mtime": 1787586626.136524,
+    "seen": 1787800832.4058638,
+    "ast_hash": "9d93ee035962fc95a4d48f9b37522434",
+    "semantic_hash": ""
   },
   "openspec/config.yaml": {
-    "mtime": 1787575070.464467,
-    "seen": 1787577858.7439544,
-    "ast_hash": "a88f7d80935e1a432dc9b5affe49eb27",
-    "semantic_hash": "a88f7d80935e1a432dc9b5affe49eb27"
+    "mtime": 1787606006.2528806,
+    "seen": 1787800832.4058638,
+    "ast_hash": "d2f201c60c8f1dfd980c51af9d390add",
+    "semantic_hash": ""
   },
   "src/app/fonts/GFS_Didot/OFL.txt": {
     "mtime": 1787563978.8782582,
@@ -197,16 +197,526 @@
     "ast_hash": "8e061864f388b47f33a1c3780831193e",
     "semantic_hash": "8e061864f388b47f33a1c3780831193e"
   },
-  "public/vercel.svg": {
-    "mtime": 1787508663.899924,
-    "seen": 1787577858.7439544,
-    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
-    "semantic_hash": "c0af2f507b369b085b35ef4bbe3bcf1e"
-  },
   "public/window.svg": {
     "mtime": 1787508663.9197507,
     "seen": 1787577858.7439544,
     "ast_hash": "a2760511c65806022ad20adf74370ff3",
     "semantic_hash": "a2760511c65806022ad20adf74370ff3"
+  },
+  ".agents/skills/shadcn/evals/evals.json": {
+    "mtime": 1787623123.8523965,
+    "seen": 1787800832.4058638,
+    "ast_hash": "9a6d011eeef9a02a52ff1b43faa80ec9",
+    "semantic_hash": ""
+  },
+  "components.json": {
+    "mtime": 1787623788.4692554,
+    "seen": 1787800832.4058638,
+    "ast_hash": "f9b838065323828efd209f38da0e25f2",
+    "semantic_hash": ""
+  },
+  "skills-lock.json": {
+    "mtime": 1787623327.8394332,
+    "seen": 1787800832.4058638,
+    "ast_hash": "716dd021bc2d6df0063b526c620ec444",
+    "semantic_hash": ""
+  },
+  "src/app/(auth)/layout.tsx": {
+    "mtime": 1787622029.4536302,
+    "seen": 1787800832.4058638,
+    "ast_hash": "f0957a4dd9da4d84e9462ac5dea774f0",
+    "semantic_hash": ""
+  },
+  "src/app/(auth)/login/page.tsx": {
+    "mtime": 1787622236.878758,
+    "seen": 1787800832.4058638,
+    "ast_hash": "477ef29cb777e443a111542cc66d8b67",
+    "semantic_hash": ""
+  },
+  "src/app/(auth)/register/page.tsx": {
+    "mtime": 1787672586.4800713,
+    "seen": 1787800832.4058638,
+    "ast_hash": "12fb6c5d6fe0e8365ca1e4fca549f4ed",
+    "semantic_hash": ""
+  },
+  "src/app/(dashboard)/dashboard/bot/page.tsx": {
+    "mtime": 1787699163.2699993,
+    "seen": 1787800832.4058638,
+    "ast_hash": "bc0eaf79b637b02927386fd0cd7c7534",
+    "semantic_hash": ""
+  },
+  "src/app/(dashboard)/dashboard/page.tsx": {
+    "mtime": 1787736287.8043275,
+    "seen": 1787800832.4058638,
+    "ast_hash": "a295c4cf56bcd2089df2290709ff7a25",
+    "semantic_hash": ""
+  },
+  "src/app/(dashboard)/dashboard/portfolio/page.tsx": {
+    "mtime": 1787700982.3749247,
+    "seen": 1787800832.4058638,
+    "ast_hash": "4fd2420edfb472bfe374a955b7f834b5",
+    "semantic_hash": ""
+  },
+  "src/app/(dashboard)/dashboard/strategy-lab/page.tsx": {
+    "mtime": 1787796307.8694086,
+    "seen": 1787800832.4058638,
+    "ast_hash": "41f389ddcdfe2ffa4e414f3fbee5b06c",
+    "semantic_hash": ""
+  },
+  "src/app/(dashboard)/dashboard/trades/page.tsx": {
+    "mtime": 1787699241.9777057,
+    "seen": 1787800832.4058638,
+    "ast_hash": "c3d94be774b10bcc66fd4a2573a49edd",
+    "semantic_hash": ""
+  },
+  "src/app/(dashboard)/layout.tsx": {
+    "mtime": 1787728998.8748157,
+    "seen": 1787800832.4058638,
+    "ast_hash": "81482ee7487036ddeac0a35080efbf12",
+    "semantic_hash": ""
+  },
+  "src/app/(dashboard)/portfolio/page.tsx": {
+    "mtime": 1787725391.2073624,
+    "seen": 1787800832.4058638,
+    "ast_hash": "cef6b79eaccd96b7eca47fe9029a3eec",
+    "semantic_hash": ""
+  },
+  "src/app/api/freqtrade/[...action]/route.ts": {
+    "mtime": 1787724189.1814184,
+    "seen": 1787800832.4058638,
+    "ast_hash": "11c3f81e5d00602bd9abec792f0fbbcd",
+    "semantic_hash": ""
+  },
+  "src/app/api/vibe-trading/[...action]/route.ts": {
+    "mtime": 1787769243.5284815,
+    "seen": 1787800832.4058638,
+    "ast_hash": "7c8f58178e31489d75808dc9eb170073",
+    "semantic_hash": ""
+  },
+  "src/app/api/vibe-trading/backtest/route.ts": {
+    "mtime": 1787792607.4056854,
+    "seen": 1787800832.4058638,
+    "ast_hash": "bd7a9d6a5b34f0201b1effa3778828f1",
+    "semantic_hash": ""
+  },
+  "src/app/api/vibe-trading/chat/route.ts": {
+    "mtime": 1787794337.7984743,
+    "seen": 1787800832.4058638,
+    "ast_hash": "100a56be5364f7d7dfdbfba6ceb73954",
+    "semantic_hash": ""
+  },
+  "src/components/auth/auth-shell.tsx": {
+    "mtime": 1787622118.843646,
+    "seen": 1787800832.4058638,
+    "ast_hash": "dd231a11dbcb2a4a3a65a35f05b256ae",
+    "semantic_hash": ""
+  },
+  "src/components/auth/google-icon.tsx": {
+    "mtime": 1787621916.989474,
+    "seen": 1787800832.4058638,
+    "ast_hash": "ed2fc63a9d2cb03c6702928664278f48",
+    "semantic_hash": ""
+  },
+  "src/components/dashboard/bot-offline-fallback.tsx": {
+    "mtime": 1787698629.2735856,
+    "seen": 1787800832.4058638,
+    "ast_hash": "3bfd5cfe07c3bfa0484d9993b6c6ce25",
+    "semantic_hash": ""
+  },
+  "src/components/dashboard/live-ticker.tsx": {
+    "mtime": 1787661228.1955297,
+    "seen": 1787800832.4058638,
+    "ast_hash": "dd22b07a3e9bef26dc82841439be733d",
+    "semantic_hash": ""
+  },
+  "src/components/landing/FeaturePanel.tsx": {
+    "mtime": 1787767719.9281552,
+    "seen": 1787800832.4058638,
+    "ast_hash": "23169cb92d64de10ebd511fd439eebce",
+    "semantic_hash": ""
+  },
+  "src/components/landing/Footer.tsx": {
+    "mtime": 1787669808.2821398,
+    "seen": 1787800832.4058638,
+    "ast_hash": "1b230b83b9e100d4628a217177c85278",
+    "semantic_hash": ""
+  },
+  "src/components/landing/GrainCanvas.tsx": {
+    "mtime": 1787602127.6187441,
+    "seen": 1787800832.4058638,
+    "ast_hash": "faf0218d58c5da1bbf4bc83275e98dc2",
+    "semantic_hash": ""
+  },
+  "src/components/landing/Hero.tsx": {
+    "mtime": 1787666399.1519573,
+    "seen": 1787800832.4058638,
+    "ast_hash": "cd936eb43821f1944ebaa559014701a2",
+    "semantic_hash": ""
+  },
+  "src/components/landing/HeroVideo.tsx": {
+    "mtime": 1787602475.7732637,
+    "seen": 1787800832.4058638,
+    "ast_hash": "34fc7149c9905d59c6ed252a8438a6c3",
+    "semantic_hash": ""
+  },
+  "src/components/landing/PlatformCards.tsx": {
+    "mtime": 1787767686.428817,
+    "seen": 1787800832.4058638,
+    "ast_hash": "d5c90819a7df28843e849321b7c6161c",
+    "semantic_hash": ""
+  },
+  "src/components/landing/ScrollFx.tsx": {
+    "mtime": 1787599077.864879,
+    "seen": 1787800832.4058638,
+    "ast_hash": "3303af69d46f9c4f10c92bb1780bc332",
+    "semantic_hash": ""
+  },
+  "src/components/landing/ShowcasePreview.tsx": {
+    "mtime": 1787767660.6664186,
+    "seen": 1787800832.4058638,
+    "ast_hash": "8d759f8b255a0ac146a301b19b88b320",
+    "semantic_hash": ""
+  },
+  "src/components/landing/SmoothScroll.tsx": {
+    "mtime": 1787580397.2985034,
+    "seen": 1787800832.4058638,
+    "ast_hash": "7f917d8a1d7ca4ec5f5a94614fb0b71e",
+    "semantic_hash": ""
+  },
+  "src/components/landing/WaitlistForm.tsx": {
+    "mtime": 1787669794.4012895,
+    "seen": 1787800832.4058638,
+    "ast_hash": "68c0381943edc2d1174122485390e224",
+    "semantic_hash": ""
+  },
+  "src/components/originkit/ui/bubble-burst.tsx": {
+    "mtime": 1787780542.9332087,
+    "seen": 1787800832.4058638,
+    "ast_hash": "23cdc25011acb33d0deb9d84f3832fe6",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/dock-bar.tsx": {
+    "mtime": 1787766999.6693206,
+    "seen": 1787800832.4058638,
+    "ast_hash": "b655c1f16aef759553873f37aae87cde",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/pair-context.tsx": {
+    "mtime": 1787750915.0961344,
+    "seen": 1787800832.4058638,
+    "ast_hash": "3a228ebbf3835121ea50a3b25c771393",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/pair-icon.tsx": {
+    "mtime": 1787750833.5816844,
+    "seen": 1787800832.4058638,
+    "ast_hash": "6be88cedea0d478dcad3b8f81b716a99",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/panel-frame.tsx": {
+    "mtime": 1787734819.2249768,
+    "seen": 1787800832.4058638,
+    "ast_hash": "f7da1b8ad2de7444b3aa147b2952d306",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/panels/account-summary.tsx": {
+    "mtime": 1787741736.0948799,
+    "seen": 1787800832.4058638,
+    "ast_hash": "3331ca4fff40b5dd7296be310cb4e14d",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/panels/chart-panel.tsx": {
+    "mtime": 1787734820.2497287,
+    "seen": 1787800832.4058638,
+    "ast_hash": "b4f1911fd5c1ade63a1768ff75e61b70",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/panels/execution-panel.tsx": {
+    "mtime": 1787758140.49486,
+    "seen": 1787800832.4058638,
+    "ast_hash": "d669748e661b3157aee95a09531a9b84",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/panels/left-sidebar.tsx": {
+    "mtime": 1787741240.6596656,
+    "seen": 1787800832.4058638,
+    "ast_hash": "546e1f805009d4777fcaec2d775f235d",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/panels/orderbook-panel.tsx": {
+    "mtime": 1787729388.9723668,
+    "seen": 1787800832.4058638,
+    "ast_hash": "354b8b3c455a03bb15f1a94bcb47c38b",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/panels/positions-panel.tsx": {
+    "mtime": 1787703264.936927,
+    "seen": 1787800832.4058638,
+    "ast_hash": "099c3b2f096e4aca9751720216684308",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/profile-modal.tsx": {
+    "mtime": 1787697281.7341547,
+    "seen": 1787800832.4058638,
+    "ast_hash": "25b5705123aa81259dfbc1de6d16f175",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/tools/picker-menu.tsx": {
+    "mtime": 1787704622.3062818,
+    "seen": 1787800832.4058638,
+    "ast_hash": "c0539b7867177a0448298f221064766c",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/tools/registry.tsx": {
+    "mtime": 1787741138.9108813,
+    "seen": 1787800832.4058638,
+    "ast_hash": "838408479a8445c9314ec61a210b64cf",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/top-nav.tsx": {
+    "mtime": 1787767353.0037408,
+    "seen": 1787800832.4058638,
+    "ast_hash": "fad3e9fc3961810cc237569b607de922",
+    "semantic_hash": ""
+  },
+  "src/components/terminal/workspace.tsx": {
+    "mtime": 1787758896.8855212,
+    "seen": 1787800832.4058638,
+    "ast_hash": "664acf6d385f4f730a7d397c4aac8e5c",
+    "semantic_hash": ""
+  },
+  "src/components/ui/badge.tsx": {
+    "mtime": 1787624190.9835794,
+    "seen": 1787800832.4058638,
+    "ast_hash": "633c33997e6137921ae433dd2dd0cb31",
+    "semantic_hash": ""
+  },
+  "src/components/ui/button.tsx": {
+    "mtime": 1787621872.4022493,
+    "seen": 1787800832.4058638,
+    "ast_hash": "5d2ace133012a8e950d2fe5fbc407abd",
+    "semantic_hash": ""
+  },
+  "src/components/ui/card.tsx": {
+    "mtime": 1787624189.5159092,
+    "seen": 1787800832.4058638,
+    "ast_hash": "bd5f88ad2d983dd6c4561d63824c80ba",
+    "semantic_hash": ""
+  },
+  "src/components/ui/input.tsx": {
+    "mtime": 1787621851.6076941,
+    "seen": 1787800832.4058638,
+    "ast_hash": "c5f700e48dd3bb3d37bf29ccd196d9a8",
+    "semantic_hash": ""
+  },
+  "src/components/ui/separator.tsx": {
+    "mtime": 1787624191.966503,
+    "seen": 1787800832.4058638,
+    "ast_hash": "f57449eae78fbd87d99e4edc45ab3c1e",
+    "semantic_hash": ""
+  },
+  "src/instrumentation-client.ts": {
+    "mtime": 1787654852.1364722,
+    "seen": 1787800832.4058638,
+    "ast_hash": "ffce85941b9f1c93ddeefbe4a9fc051b",
+    "semantic_hash": ""
+  },
+  "src/lib/freqtrade.ts": {
+    "mtime": 1787686555.44147,
+    "seen": 1787800832.4058638,
+    "ast_hash": "43c1cbf533b2486daa581a8740fde446",
+    "semantic_hash": ""
+  },
+  "src/lib/market/binance.ts": {
+    "mtime": 1787750781.7158825,
+    "seen": 1787800832.4058638,
+    "ast_hash": "46be7183ee0db5f2de1e8927c7afe006",
+    "semantic_hash": ""
+  },
+  "src/lib/supabase/client.ts": {
+    "mtime": 1787616188.7419126,
+    "seen": 1787800832.4058638,
+    "ast_hash": "a9b380e3b3333f50271e0574405882a6",
+    "semantic_hash": ""
+  },
+  "src/lib/swr.ts": {
+    "mtime": 1787686555.444207,
+    "seen": 1787800832.4058638,
+    "ast_hash": "829fb695ea7b816f4a0ec208d117d3e3",
+    "semantic_hash": ""
+  },
+  "src/lib/utils.ts": {
+    "mtime": 1787623820.7508168,
+    "seen": 1787800832.4058638,
+    "ast_hash": "5a6fd53fdcf2be529e9cc0b718fde352",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/SKILL.md": {
+    "mtime": 1787623123.8423605,
+    "seen": 1787800832.4058638,
+    "ast_hash": "360225043a4b47558c55539ee0f93172",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/agents/openai.yml": {
+    "mtime": 1787623123.8423605,
+    "seen": 1787800832.4058638,
+    "ast_hash": "a93201a1b378a868c0795edbf1ae751c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/cli.md": {
+    "mtime": 1787623123.8483763,
+    "seen": 1787800832.4058638,
+    "ast_hash": "06dc1478b5449f2a3c60f4bf4e043687",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/customization.md": {
+    "mtime": 1787623123.8483763,
+    "seen": 1787800832.4058638,
+    "ast_hash": "7454b40655ce6bcbbfa8fa3804b66fbe",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/mcp.md": {
+    "mtime": 1787623123.8523965,
+    "seen": 1787800832.4058638,
+    "ast_hash": "aa876f97643326a64e99b86d5ac41bc5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/registry.md": {
+    "mtime": 1787623123.8523965,
+    "seen": 1787800832.4058638,
+    "ast_hash": "f7e28f2e510e8ec5847619641ddfeea4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/rules/base-vs-radix.md": {
+    "mtime": 1787623123.8558087,
+    "seen": 1787800832.4058638,
+    "ast_hash": "582481904d3c35aae4125153db97fc37",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/rules/chat.md": {
+    "mtime": 1787623123.8558087,
+    "seen": 1787800832.4058638,
+    "ast_hash": "a69a0fa62f7d005e3a5f9aa0b0584ad8",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/rules/composition.md": {
+    "mtime": 1787623123.8578148,
+    "seen": 1787800832.4058638,
+    "ast_hash": "44ec3d642cf72d48e1d370fb267b79a3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/rules/forms.md": {
+    "mtime": 1787623123.8586535,
+    "seen": 1787800832.4058638,
+    "ast_hash": "41155ed5a844952613e717a5add76606",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/rules/icons.md": {
+    "mtime": 1787623123.8586535,
+    "seen": 1787800832.4058638,
+    "ast_hash": "56b5a01599f8c03c90f248c5e5e01f67",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/rules/styling.md": {
+    "mtime": 1787623123.8586535,
+    "seen": 1787800832.4058638,
+    "ast_hash": "149558687b4e92802f34951bceda7983",
+    "semantic_hash": ""
+  },
+  "docs/GO_LIVE.md": {
+    "mtime": 1787673579.9205506,
+    "seen": 1787800832.4058638,
+    "ast_hash": "8602ee5874f79c11322db3655ba596ac",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-08-26-freqtrade-integration.md": {
+    "mtime": 1787682208.2438736,
+    "seen": 1787800832.4058638,
+    "ast_hash": "678a0b8dee9fe76f9793687ce761bec8",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/specs/2026-08-26-freqtrade-integration-design.md": {
+    "mtime": 1787682082.5921636,
+    "seen": 1787800832.4058638,
+    "ast_hash": "a31599ebea1aac35b59c36b489d2c5b3",
+    "semantic_hash": ""
+  },
+  "openspec/changes/prd-refinement-vibe-trading-integration/.openspec.yaml": {
+    "mtime": 1787799849.0451882,
+    "seen": 1787800832.4058638,
+    "ast_hash": "f97fd577ea4d8cb30b12050ab2b411e5",
+    "semantic_hash": ""
+  },
+  "openspec/changes/prd-refinement-vibe-trading-integration/design.md": {
+    "mtime": 1787800014.4715128,
+    "seen": 1787800832.4058638,
+    "ast_hash": "ea0ce21048d3c864e11677a75b71045c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/prd-refinement-vibe-trading-integration/proposal.md": {
+    "mtime": 1787799905.632189,
+    "seen": 1787800832.4058638,
+    "ast_hash": "edae5002c8349cc4fe794a534dbfb078",
+    "semantic_hash": ""
+  },
+  "openspec/changes/prd-refinement-vibe-trading-integration/specs/ai-to-freqtrade-strategy-transfer/spec.md": {
+    "mtime": 1787799975.1575253,
+    "seen": 1787800832.4058638,
+    "ast_hash": "6cd3449c16c6580a17d2f23e22209248",
+    "semantic_hash": ""
+  },
+  "openspec/changes/prd-refinement-vibe-trading-integration/specs/freemium-tiered-access/spec.md": {
+    "mtime": 1787799976.827192,
+    "seen": 1787800832.4058638,
+    "ast_hash": "37fe9fb4f874b9f4776a3f1dfa1b1e72",
+    "semantic_hash": ""
+  },
+  "openspec/changes/prd-refinement-vibe-trading-integration/specs/freqtrade-integration-workflow/spec.md": {
+    "mtime": 1787799975.866935,
+    "seen": 1787800832.4058638,
+    "ast_hash": "49649784919b3769d592eb6c651e1084",
+    "semantic_hash": ""
+  },
+  "openspec/changes/prd-refinement-vibe-trading-integration/specs/portfolio-pnl-history-sync/spec.md": {
+    "mtime": 1787799976.3944745,
+    "seen": 1787800832.4058638,
+    "ast_hash": "83ceb100ee0ee511407423cf2e4076b3",
+    "semantic_hash": ""
+  },
+  "openspec/changes/prd-refinement-vibe-trading-integration/specs/vibe-trading-ai-strategy-lab/spec.md": {
+    "mtime": 1787799974.6614342,
+    "seen": 1787800832.4058638,
+    "ast_hash": "58b7ec60a1e96f96e78c142ff693389c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/prd-refinement-vibe-trading-integration/tasks.md": {
+    "mtime": 1787800068.5930407,
+    "seen": 1787800832.4058638,
+    "ast_hash": "468a2c2309906bdae2adc2708082d4ee",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/assets/shadcn-small.png": {
+    "mtime": 1787623123.8423605,
+    "seen": 1787800832.4058638,
+    "ast_hash": "72349c6b7f303e6be598a2196391291b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/assets/shadcn.png": {
+    "mtime": 1787623123.8483763,
+    "seen": 1787800832.4058638,
+    "ast_hash": "cb56bf002d36bb860c3d320a23bd871a",
+    "semantic_hash": ""
+  },
+  "public/assets/image/Greek_god_Kairos_holding_scale.jpeg": {
+    "mtime": 1787594764.5583217,
+    "seen": 1787800832.4058638,
+    "ast_hash": "ea0310d73904e7b4f4bf6c8f607a4d89",
+    "semantic_hash": ""
+  },
+  "public/assets/video/kairos_hero.mp4": {
+    "mtime": 1787602435.3534465,
+    "seen": 1787800832.4058638,
+    "ast_hash": "2e70c33da5d37eca21923a3381e0e4fe",
+    "semantic_hash": ""
   }
 }
